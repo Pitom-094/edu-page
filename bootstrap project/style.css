@@ -1,0 +1,120 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+
+    font-family:cursive ;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-family: Arial, Helvetica, sans-serif;
+}
+.hr-style{border: 3px double red;   border-bottom: none; width: 50px; 
+}
+.section-title h3{font-weight: bolder; margin-bottom: 0;}
+header{
+    background-image: url(pexels-sophors-25437427.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
+img{
+width: 3rem; height: 3rem; border-radius: 2rem;
+}
+
+nav {padding: 1% 1%; background-color: rgb(0, 0, 0,0.7);}
+.banner-container{
+    height: 100vh;
+}
+.nav-link{
+    color: aliceblue;
+    margin: 10px; border-radius: 5px; border-radius: 5px; transition: 0.4s;
+}
+
+.nav-link:hover{
+    background-color: aquamarine; outline-offset: white; transform: scale(1.2);
+}
+.banner-container h1{
+    font-size: 3.6rem; background-color: blue; margin-top: 3rem; padding: 2rem 2rem 2rem 2rem; font-family: cursive;
+
+    border-radius: .4rem;
+}
+
+/* Features Section */
+#features {
+    padding: 3% 6%;
+    background-color: burlywood;
+}
+
+/* Feature Box Styling */
+.features-col {
+    border: 0.3rem solid rebeccapurple;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    transition: 0.4s;
+    max-width: 300px; /* Keeps content aligned */
+}
+
+/* Hover Effect */
+.features-col:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon Styling */
+.icon-style {
+    background-color:cadetblue;
+    color: aliceblue;
+    padding: 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+    .features-col {
+        max-width: 90%;
+    }
+}
+
+.btn{ width:105px; height: 45px; text-align: center;}
+#about-me{
+
+    padding: 4% 10%; background-color: brown;
+}
+
+#about-me p{
+    font-size: 1.2rem; margin-bottom: 0; font-weight: light;
+}
+.achieve-des span{
+    font-weight: 700  !important;
+}
+.star i{
+    width: 20px;
+
+}
+.card-img-top{height: 180px;}
+
+#Tutorial{
+    padding: 4% 10% 5% 12%;  background-color: aquamarine;
+}
+.card{
+    transition: 0.4s;  border: 1px solid red; padding: 3px 3px 3px 3px;
+}
+.card:hover{transform: scale(0.9); box-shadow: 2px 4px 6px black ;}
+#feedback{padding: 6%; background-color:brown;}
+
+.carousel-item{text-align: center; padding: 7% 15%; font-family: cursive; font-size: 1.3rem;}
+.feedback-img{width: 220px; height: 20px; margin-bottom:6px ;}
+
+#Contact
+{padding: 2% 12%; background-color:blue;}
+
+footer{background-color: chocolate; padding: 1% 6%;}
+footer a{color: aliceblue; margin: 0 10px;}
+
+footer a:hover{color: black;}
